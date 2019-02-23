@@ -1,7 +1,7 @@
 package org.yyok.oauth.controller;
 
 import org.yyok.oauth.repository.UserMapper;
-import org.yyok.repository.*;
+import org.yyok.oauth.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -10,8 +10,8 @@ import org.yyok.oauth.bean.Permission;
 import org.yyok.oauth.bean.User;
 import org.yyok.oauth.repository.PermissionMapper;
 import org.yyok.oauth.repository.UserMapper;
-import org.yyok.repository.*;
-import org.yyok.bean.*;
+import org.yyok.oauth.repository.*;
+import org.yyok.oauth.bean.*;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -11,7 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import org.yyok.oauth.security.UrlUserService;
-import org.yyok.security.*;
+import org.yyok.oauth.security.*;
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 

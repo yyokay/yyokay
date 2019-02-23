@@ -2,7 +2,7 @@ package org.yyok.oauth.repository;
 
 import java.util.List;
 import java.util.Map;
-import org.yyok.bean.*;
+import org.yyok.oauth.bean.*;
 import org.yyok.oauth.bean.User;
 
 public interface UserMapper {

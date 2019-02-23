@@ -13,7 +13,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
 import org.yyok.oauth.security.UrlUserService;
-import org.yyok.security.*;
+import org.yyok.oauth.security.*;
 @Configuration
 @EnableAuthorizationServer //认证服务器
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
