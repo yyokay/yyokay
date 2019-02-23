@@ -19,10 +19,10 @@ import java.util.List;
 public class UrlUserService implements UserDetailsService {
 
     @Autowired
-    UserMapper userMapper;
+    private UserMapper userMapper;
 
     @Autowired
-    PermissionMapper permissionMapper;
+    private PermissionMapper permissionMapper;
     @Override
     public UserDetails loadUserByUsername(String userName) { //重写loadUserByUsername 方法获得 userdetails 类型用户
         User user = userMapper.getByUserName(userName);
