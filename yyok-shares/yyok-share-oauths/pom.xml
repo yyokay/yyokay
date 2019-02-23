@@ -3,20 +3,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>yyokay</artifactId>
+        <artifactId>yyok-shares</artifactId>
         <groupId>org.yyok</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>yyok-share-oauths</module>
-    </modules>
-    <artifactId>yyok-shares</artifactId>
 
-    <name>yyok-shares</name>
+    <artifactId>yyok-share-oauths</artifactId>
+    <packaging>pom</packaging>
+    <name>yyok-share-oauths</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://maven.apache.org/</url>
-    <inceptionYear>2001</inceptionYear>
+    <url>http://www.example.com</url>
+    <modules>
+        <module>yyok-share-oauth-server</module>
+    </modules>
 
 </project>

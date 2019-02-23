@@ -1,13 +1,12 @@
 ![alt text](https://r.51gjj.com/webpublic/images/2018727/Jue32ytr0kfa.png "51gjj Logo")
 
-大数据开发项目
+大数据开发项目-授权认证
 ==============
-
 
 项目简介
 =========
 
-大数据微服:
+大数据微服: 请求资源 携带认证信息  注销
 
 
 
@@ -51,7 +50,7 @@
 目录
 -----------
 
-项目源码: 
+项目源码: [gitlab.com https://t-git.51gjj.com/xuanwu/cat.git](https://t-git.51gjj.com/xuanwu/cat.git)（cat）
 
 开发说明:
 

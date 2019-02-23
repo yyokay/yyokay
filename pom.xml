@@ -40,7 +40,7 @@
     <spark.pom.scope>compile</spark.pom.scope>
     <pinyin4j.version>2.5.0</pinyin4j.version>
     <mysql.version>5.1.46</mysql.version>
-    <cat.version>1.0.0</cat.version>
+    <yyok.version>1.0.0</yyok.version>
   </properties>
   
   <build>
