@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>yyok-shares</artifactId>
-        <groupId>org.yyok</groupId>
+        <groupId>org.yyok.share</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>org.yyok.share.oauth</groupId>
     <artifactId>yyok-share-oauths</artifactId>
     <packaging>pom</packaging>
     <name>yyok-share-oauths</name>
@@ -16,6 +15,8 @@
     <url>http://www.example.com</url>
     <modules>
         <module>yyok-share-oauth-server</module>
+        <module>yyok-share-oauth-client</module>
+        <module>yyok-share-oauth-api</module>
     </modules>
 
 </project>
