@@ -8,12 +8,15 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>org.yyok.lib.dist</groupId>
     <artifactId>yyok-lib-dists</artifactId>
     <packaging>pom</packaging>
     <name>yyok-lib-dists</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <modules>
+        <module>yyok-my</module>
+    </modules>
 
 
 </project>
