@@ -1,0 +1,17 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates/
+    suffix: .html
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+server:
+  port: 80
