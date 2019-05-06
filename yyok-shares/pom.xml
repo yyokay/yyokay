@@ -10,8 +10,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>yyok-share-oauths</module>
-        <module>yyok-share-monitors</module>
-        <module>yyok-share-utils</module>
     </modules>
     <artifactId>yyok-shares</artifactId>
     <groupId>org.yyok.share</groupId>
