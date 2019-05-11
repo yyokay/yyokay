@@ -1,21 +1,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>yyok-share-oauths</artifactId>
-        <groupId>org.yyok.share.oauth</groupId>
+        <artifactId>yyok-libs</artifactId>
+        <groupId>org.yyok.lib</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>yyok-share-oauth-api</artifactId>
+    <artifactId>yyok-lib-statistics</artifactId>
     <packaging>jar</packaging>
-    <name>yyok-share-oauth-api</name>
+    <name>yyok-lib-statistics</name>
     <url>http://maven.apache.org</url>
+
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <artifactId>yyok-share-spark</artifactId>
+            <groupId>org.yyok.share</groupId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 </project>

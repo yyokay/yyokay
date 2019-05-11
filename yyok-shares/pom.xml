@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>yyok-share-oauths</module>
+        <module>yyok-share-sdks</module>
+        <module>yyok-share-hadoop</module>
+        <module>yyok-share-spark</module>
     </modules>
     <artifactId>yyok-shares</artifactId>
     <groupId>org.yyok.share</groupId>

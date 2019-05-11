@@ -12,6 +12,8 @@
     <artifactId>yyok-libs</artifactId>
     <modules>
         <module>yyok-lib-mys</module>
+        <module>yyok-lib-statistics</module>
+        <module>yyok-lib-minings</module>
     </modules>
     <groupId>org.yyok.lib</groupId>
     <packaging>pom</packaging>
