@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <artifactId>yyok-das</artifactId>
-
+    <groupId>org.yyok.da</groupId>
+    <version>1.0.0</version>
     <name>yyok-das</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org/</url>
