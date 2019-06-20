@@ -1,20 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>yyok-libs</artifactId>
-        <groupId>org.yyok.lib</groupId>
+        <artifactId>yyok-das</artifactId>
+        <groupId>org.yyok.da</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>yyok-lib-minings</artifactId>
-    <packaging>pom</packaging>
-    <name>yyok-lib-minings</name>
+    <artifactId>yyok-lib-collector</artifactId>
+    <packaging>jar</packaging>
+    <name>yyok-lib-collector</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>yyok-lib-clusters</module>
-        <module>yyok-lib-classification</module>
-        <module>yyok-lib-cleaning</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

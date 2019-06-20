@@ -2,22 +2,27 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
-        <artifactId>yyokay</artifactId>
-        <groupId>org.yyok</groupId>
+        <artifactId>yyok-shares</artifactId>
+        <groupId>org.yyok.share</groupId>
         <version>1.0.0</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.yyok.lib.dist</groupId>
-    <artifactId>yyok-lib-dists</artifactId>
+    <artifactId>yyok-share-springs</artifactId>
+    <modules>
+        <module>yyok-share-spring-workframe</module>
+        <module>yyok-share-spring-cloud</module>
+    </modules>
+    <groupId>org.yyok.share.springs</groupId>
+    <name>yyok-share-springs</name>
     <packaging>pom</packaging>
-    <name>yyok-lib-dists</name>
+
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-    <modules>
-        <module>yyok-my</module>
-        <module>yyok-lib-doc</module>
-    </modules>
+
 
 
 </project>
+

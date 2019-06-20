@@ -14,6 +14,8 @@
         <module>yyok-share-sdks</module>
         <module>yyok-share-hadoop</module>
         <module>yyok-share-spark</module>
+        <module>yyok-share-monitors</module>
+        <module>yyok-share-springs</module>
     </modules>
     <artifactId>yyok-shares</artifactId>
     <groupId>org.yyok.share</groupId>

@@ -18,7 +18,7 @@
     <inceptionYear>2001</inceptionYear>
     <modules>
         <module>yyok-da-spiderjs</module>
-
+        <module>yyok-lib-collector</module>
     </modules>
 
 </project>
